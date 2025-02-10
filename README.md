@@ -2,6 +2,7 @@
 
 The Socket API
 Sockets work very similar to file operations.
+
 ● open() socket() → Open a socket
 ● read() → Read / receive data from a socket (aka recv)
 ● write() → Write / send data to a socket (aka send)
