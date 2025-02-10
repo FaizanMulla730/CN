@@ -12,7 +12,7 @@ In addition to this, we have:
 ● listen() →Mark socket as ‘listener’
 ● accept() →Accept new connections as a listener socket
 
-Server Recipe
+## Server Recipe
 Here is how a server would use sockets:
 ● socket() →Create a socket
 ● bind(port number) →Bind the socket to a particular port number
@@ -22,7 +22,7 @@ Here is how a server would use sockets:
 connection.
 Once a connection is established, we can use read / write calls to receive / send data.
 
-Reads / Writes to sockets read(n: bytecnt, data_addr: pointer)
+## Reads / Writes to sockets read(n: bytecnt, data_addr: pointer)
 ● Reads upto n bytes from the network stack into data_addr
 ● Returns the number of bytes actually read upon completion
 ● This call blocks until there is something to read!
