@@ -12,7 +12,9 @@ Sockets work very similar to file operations.
 ● close() → Close the socket
 
 In addition to this, we have:
+
 ● bind() → Associate socket with a port number
+
 ● listen() →Mark socket as ‘listener’
 ● accept() →Accept new connections as a listener socket
 
