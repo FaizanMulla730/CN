@@ -34,6 +34,7 @@ Here is how a server would use sockets:
 
 ○ If a connection is established, the call will return a new socket corresponding to the
 connection.
+
 Once a connection is established, we can use read / write calls to receive / send data.
 
 
