@@ -23,6 +23,7 @@ Here is how a server would use sockets:
 connection.
 Once a connection is established, we can use read / write calls to receive / send data.
 
+
 ## Reads / Writes to sockets read(n: bytecnt, data_addr: pointer)
 ● Reads upto n bytes from the network stack into data_addr
 ● Returns the number of bytes actually read upon completion
