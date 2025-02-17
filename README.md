@@ -7,6 +7,7 @@ Sockets work very similar to file operations.
 ● read() → Read / receive data from a socket (aka recv)
 ● write() → Write / send data to a socket (aka send)
 ● close() → Close the socket
+
 In addition to this, we have:
 ● bind() → Associate socket with a port number
 ● listen() →Mark socket as ‘listener’
