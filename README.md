@@ -12,6 +12,7 @@ In addition to this, we have:
 ● listen() →Mark socket as ‘listener’
 ● accept() →Accept new connections as a listener socket
 
+
 ## Server Recipe
 Here is how a server would use sockets:
 ● socket() →Create a socket
