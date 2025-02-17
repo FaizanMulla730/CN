@@ -21,6 +21,7 @@ In addition to this, we have:
 
 
 ## Server Recipe
+
 Here is how a server would use sockets:
 
 ● socket() →Create a socket
@@ -30,6 +31,7 @@ Here is how a server would use sockets:
 ● listen() →Mark the socket as a listening socket
 
 ● accept() → Block and listen for connections
+
 ○ If a connection is established, the call will return a new socket corresponding to the
 connection.
 Once a connection is established, we can use read / write calls to receive / send data.
