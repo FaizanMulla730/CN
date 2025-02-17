@@ -22,7 +22,9 @@ In addition to this, we have:
 
 ## Server Recipe
 Here is how a server would use sockets:
+
 ● socket() →Create a socket
+
 ● bind(port number) →Bind the socket to a particular port number
 ● listen() →Mark the socket as a listening socket
 ● accept() → Block and listen for connections
